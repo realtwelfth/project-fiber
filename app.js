@@ -3,9 +3,6 @@ const config = require("./botconfig.json");      //
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const fs = require("fs");
-const Cleverbot = require('cleverbot-node');
-const clbot = new Cleverbot;
-clbot.configure({botapi: "XqHIIW0scJKa7tWU0Hh9XL0GROLKgoTA"});
 bot.commands = new Discord.Collection();
 bot.mutes = require("./mutes.json");
 /////////////////////////////////////////////////////////
