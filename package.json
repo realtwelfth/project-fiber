@@ -1,0 +1,13 @@
+{
+  "name": "Fiber",
+  "description": "Running on Discord JS for personal use (Credits to DefinitelyNotJosh)",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
